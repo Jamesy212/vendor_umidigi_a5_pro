@@ -14,4 +14,5 @@ PRODUCT_COPY_FILES += \
     vendor/umidigi/A5_Pro/proprietary/lib/libsysenv_system.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libsysenv_system.so
 
 PRODUCT_PACKAGES += \
-    ImsService
+     ImsService \
+     EngineerMode
