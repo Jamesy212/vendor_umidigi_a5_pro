@@ -15,5 +15,4 @@ PRODUCT_COPY_FILES += \
     vendor/umidigi/A5_Pro/proprietary/lib64/libmtk-ril.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libmtk-ril.so
 
 PRODUCT_PACKAGES += \
-     ImsService \
-     EngineerMode
+    ImsService
