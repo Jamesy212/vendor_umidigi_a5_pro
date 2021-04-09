@@ -12,7 +12,7 @@ PRODUCT_COPY_FILES += \
     vendor/umidigi/A5_Pro/proprietary/etc/init/kpoc_charger.rc:$(TARGET_COPY_OUT_SYSTEM)/etc/init/kpoc_charger.rc \
     vendor/umidigi/A5_Pro/proprietary/lib/libshowlogo.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libshowlogo.so \
     vendor/umidigi/A5_Pro/proprietary/lib/libsysenv_system.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libsysenv_system.so \
-    vendor/umidigi/A5_Pro/proprietary/product/vendor_overlay/28/lib64/libmtk-ril.so:$(TARGET_COPY_OUT_SYSTEM)/vendor_overlay/28/lib64/libmtk-ril.so
+    vendor/umidigi/A5_Pro/proprietary/lib64/libmtk-ril.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libmtk-ril.so
 
 PRODUCT_PACKAGES += \
     ImsService
